@@ -1,0 +1,13 @@
+{
+  "name": "awslambda-neko",
+  "license": "LGPL",
+  "classPath": "src/",
+  "tags": ["neko","awslambda","serverless"],
+  "description": "awslambda-neko is a neko runtime environment for aws lambda",
+  "contributors": ["ianxm"],
+  "releasenote": "initial",
+  "version": "0.0.1",
+  "url": "http://github.com/ianxm/awslambda-neko",
+  "dependencies": {
+  }
+}

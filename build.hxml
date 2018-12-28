@@ -1,0 +1,10 @@
+-main awslambda.runtime.NekoRuntime
+-neko bin-runtime/bin/neko_runtime.n
+-cp src
+-cmd nekotools boot bin-runtime/bin/neko_runtime.n
+
+--next
+
+-main example.ExampleLambdaFunction
+-neko bin-example/lambda_function.n
+-cp src
